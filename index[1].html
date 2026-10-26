@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ujjain Darshan - a travel guide to the ancient city of Ujjain, Madhya Pradesh.">
+  <title>Ujjain Darshan - Travel Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header">
+    <a href="#home" class="logo">Ujjain Darshan</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#places">Places</a></li>
+        <li><a href="#festivals">Festivals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Walk the ghats of an ancient city.</h1>
+        <p>Ujjain, on the banks of the Shipra, has been a centre of faith, astronomy and learning for over two thousand years. Plan your visit here.</p>
+        <a href="#places" class="btn">See places to visit</a>
+      </div>
+      <aside class="hero-card">
+        <h2>Quick facts</h2>
+        <dl>
+          <dt>State</dt><dd>Madhya Pradesh</dd>
+          <dt>River</dt><dd>Shipra</dd>
+          <dt>Best time</dt><dd>October to March</dd>
+          <dt>Languages</dt><dd>Hindi, Malvi, English</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <h2>About Ujjain</h2>
+      <div class="two-col">
+        <p>Ujjain is one of the seven sacred cities of India and the home of the Mahakaleshwar Jyotirlinga. It was the capital of the Avanti kingdom and later the court of King Vikramaditya, after whom our university is named.</p>
+        <p>The city is also known for the Vedh Shala, an old observatory built in the 18th century, and for being a prime meridian of ancient Indian astronomy. Today it blends temple life with a growing university town.</p>
+      </div>
+    </section>
+
+    <!-- ===== PLACES ===== -->
+    <section id="places" class="section alt">
+      <h2>Places to visit</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Mahakaleshwar Temple</h3>
+          <p>The most visited temple in the city, known for the early-morning Bhasma Aarti.</p>
+          <p class="meta">Open 4:00 AM to 11:00 PM</p>
+        </article>
+        <article class="card">
+          <h3>Ram Ghat</h3>
+          <p>The main bathing ghat on the Shipra and the heart of the Simhastha Kumbh fair.</p>
+          <p class="meta">Best at sunset</p>
+        </article>
+        <article class="card">
+          <h3>Kal Bhairav Temple</h3>
+          <p>A shrine where devotees offer liquor as prasad, a custom found almost nowhere else.</p>
+          <p class="meta">Open all day</p>
+        </article>
+        <article class="card">
+          <h3>Vedh Shala Observatory</h3>
+          <p>An 18th-century observatory built by Maharaja Jai Singh II with large stone instruments.</p>
+          <p class="meta">Open 6:00 AM to 6:00 PM</p>
+        </article>
+        <article class="card">
+          <h3>Harsiddhi Temple</h3>
+          <p>A Shakti Peeth with tall lamp pillars that are lit in the evening.</p>
+          <p class="meta">Evening visit recommended</p>
+        </article>
+        <article class="card">
+          <h3>Sandipani Ashram</h3>
+          <p>The place where Krishna and Sudama are said to have studied.</p>
+          <p class="meta">Open 7:00 AM to 7:00 PM</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== FESTIVALS (TABLE) ===== -->
+    <section id="festivals" class="section">
+      <h2>Festivals and events</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Major events in Ujjain</caption>
+          <thead>
+            <tr><th>Event</th><th>Month</th><th>What happens</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Mahashivratri</td><td>February / March</td><td>Night-long prayers at Mahakaleshwar</td></tr>
+            <tr><td>Kartik Mela</td><td>November</td><td>Fair on the Shipra banks</td></tr>
+            <tr><td>Kalidas Samaroh</td><td>November</td><td>Drama, music and poetry in honour of Kalidasa</td></tr>
+            <tr><td>Simhastha Kumbh</td><td>Every 12 years</td><td>Millions bathe in the Shipra</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT FORM ===== -->
+    <section id="contact" class="section alt">
+      <h2>Plan your visit</h2>
+      <form class="form" action="#" method="post">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="days">Number of days</label>
+        <select id="days" name="days">
+          <option value="1">1 day</option>
+          <option value="2">2 days</option>
+          <option value="3">3 days or more</option>
+        </select>
+
+        <label for="msg">Your questions</label>
+        <textarea id="msg" name="msg" rows="4" placeholder="Tell us what you want to see"></textarea>
+
+        <button type="submit" class="btn">Send request</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <p>Ujjain Darshan - Web Designing Project, Institute of Computer Science, Samrat Vikramaditya Vishwavidyalay, Ujjain</p>
+    <p>Made by: Your Name | B.C.A. I Semester | 2026</p>
+  </footer>
+
+</body>
+</html>
